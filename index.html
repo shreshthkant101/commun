@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html onmousemove="recieve()">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Communicator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+    
+
+
+    <input type="text" id="in" placeholder="Type your message" oninput="subm()" class="inp">
+    
+    <input type="text" id="ra" placeholder="Raja's message" class="inp" >
+    <input type="text" id="ma" placeholder="mamma's message"class="inp" >
+    <input type="text" id="pa" placeholder="papa's message"class="inp" >
+
+
+    <h1 id="int">I am...</h1>
+    <button id="mam" onclick="ch('m')">Mamma</button>
+    <button id="pap" onclick="ch('p')">Papa</button>
+    <button id="raj" onclick="ch('r')">Raja</button>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAps2uhujSPEUPJs8qsPnI48Ck7kcQYoTA",
+    authDomain: "jcksank-c121e.firebaseapp.com",
+    databaseURL: "https://jcksank-c121e.firebaseio.com",
+    projectId: "jcksank-c121e",
+    storageBucket: "jcksank-c121e.appspot.com",
+    messagingSenderId: "451204427761",
+    appId: "1:451204427761:web:ead0e2f7d3526f26c59e50"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+
+
+  
+</script>
+<script src='transfer.js'></script>
+
+<script src="recieve.js"></script>
+
+
+</body>
+</html>

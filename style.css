@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#in{
+  
+}
+.inp{
+   
+   display: none;
+  
+}
+label{
+    display: none;
+}
+#ra{
+    border: 1px solid red;
+}
+#ma{
+    border: 1px solid green;
+}
+#pa{
+    border: 1px solid blue;
+}
